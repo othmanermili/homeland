@@ -1,0 +1,119 @@
+.facebook-icon {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.facebook-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.4);
+}
+
+.facebook-icon:hover .fa-facebook-f {
+    animation: rotate 0.5s ease-in-out forwards;
+}
+
+.fa-facebook-f {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.instagram-icon {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #c13584;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.instagram-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.4);
+}
+
+.instagram-icon:hover .fa-instagram {
+    animation: rotate 0.5s ease-in-out forwards;
+}
+
+.fa-instagram {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.twitter-icon {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #1da1f2;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.twitter-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.4);
+}
+
+.twitter-icon:hover .fa-twitter {
+    animation: rotate 0.5s ease-in-out forwards;
+}
+
+.fa-twitter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer-css{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-css > div {
+        margin-bottom: 25px;
+    }
+}

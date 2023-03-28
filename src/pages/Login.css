@@ -1,0 +1,113 @@
+
+  
+  /* form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50vh;
+    width: 500px;
+  } */
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -48px;
+    background-color: #6a0dad;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-header h2 {
+    font-size: 2rem;
+    color: #6a0dad;
+  }
+  
+  .form-body {
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #6a0dad;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    display: flex;
+    border: 2px solid #6a0dad;
+    border-radius: 30px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-group:focus-within {
+    border-color: #6a0dad;
+    box-shadow: 0 0 0 3px rgba(106, 13, 173, 0.3);
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #6a0dad;
+    background-color: transparent;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #6a0dad;
+  }
+  
+  .form-footer button {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6a0dad;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .form-footer button:hover {
+    background-color: #fff;
+    color: #6a0dad;
+    box-shadow: 0 0 0 3px rgba(106, 13, 173, 0.3);
+  }
+  
+  .form-footer button span.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
